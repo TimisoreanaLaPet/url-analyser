@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules/       # Frontend dependencies (huge, everyone installs their own)
+vendor/             # Backend dependencies (for Go, PHP, etc.)
+
+# Environment files
+.env                # Contains your environment variables/secrets
+.env.local          # Local environment overrides
+
+# Build directories
+dist/               # Production build outputs
+build/              # React build folder
+
+# IDE specific files
+.idea/              # JetBrains IDE (WebStorm, GoLand) config
+.vscode/            # VS Code config
+*.swp               # Vim swap files
+*.swo               # Vim swap files
+
+# System files
+.DS_Store           # Mac OS metadata file
+Thumbs.db           # Windows thumbnail cache
+
+# Go specific
+bin/                # Compiled binaries
